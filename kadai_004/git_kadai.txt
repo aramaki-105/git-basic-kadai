@@ -1,0 +1,44 @@
+PS C:\Users\arama\OneDrive\デスクトップ\lesson\samurai> cd C:\Users\arama\OneDrive\デスクトップ\assignment
+PS C:\Users\arama\OneDrive\デスクトップ\assignment> mkdir kadai_git
+
+
+    ディレクトリ: C:\Users\arama\OneDrive\デスクトップ\assignment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/01/08      4:40                kadai_git
+
+
+PS C:\Users\arama\OneDrive\デスクトップ\assignment> cd kadai_git
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/01/08      4:46                git_challenge
+
+
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git> cd git_challenge
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git\git_challenge> git init
+Initialized empty Git repository in C:/Users/arama/OneDrive/デスクトップ/assignment/kadai_git/git_challenge/.git/
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git\git_challenge> echo "Hello, world" hello_world.txt
+Hello, world
+hello_world.txt
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git\git_challenge> echo "Hello, world" >> hello_world.txt
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git\git_challenge> git add hello_world.txt
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git\git_challenge> git commit -m "Hello, worldを追加"
+[main (root-commit) fcb70ba] Hello, worldを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git\git_challenge> git add hello_world.txt
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git\git_challenge> git commit -m "日本語を追記"
+[main d5294ad] 日本語を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git\git_challenge> git log --oneline
+d5294ad (HEAD -> main) 日本語を追記
+fcb70ba Hello, worldを追加
+PS C:\Users\arama\OneDrive\デスクトップ\assignment\kadai_git\git_challenge> 
